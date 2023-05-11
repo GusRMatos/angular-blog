@@ -1,0 +1,20 @@
+@media screen and (max-width: 992px) {
+    
+    .container_menu-bar{
+        display: flex;
+        font-size: 1.6rem;
+        width: 47rem;
+        margin-bottom: 1rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .container_menu-bar > ul{
+        display: flex;
+        flex-direction: row;
+        margin-top: .3rem;
+    }
+    .container_menu-bar > ul > li{
+        margin-right: 1rem;
+    }
+}

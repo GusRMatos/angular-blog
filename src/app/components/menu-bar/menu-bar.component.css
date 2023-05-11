@@ -1,0 +1,30 @@
+.container_menu-bar{
+    background-color: transparent;
+    display: flex;
+    font-size: 1.6rem;
+    width: 73rem;
+    margin-bottom: 1rem;
+    padding: 0;
+    justify-content: space-between;
+}
+.title{
+    font-style: italic;
+    font-family: "Brush Script MT", "Brush Script Std", "cursive";
+    font-size: 3rem;
+}
+.container_menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.container_menu-bar > ul > li{
+    margin-right: 1rem;
+}
+.container_menu-bar > ul > li > a{
+    text-decoration: none;
+    color: #000;
+}

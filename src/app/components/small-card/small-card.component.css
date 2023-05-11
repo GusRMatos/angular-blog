@@ -1,0 +1,35 @@
+*{
+    background-color: #ffffff;
+}
+.picture_small-card > img{
+    display: flex;
+    width: 570px;
+    height: 300px;
+    border-radius: .4rem;
+    margin-right: 2rem;
+   
+}
+.small-card_contents{
+    text-align: start;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.small-card_date{
+    font-size: .8rem;
+}
+.small-card_title{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.small-card_title > a{
+    text-decoration: none;
+    color: #000;
+}
+.small-card_content{
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 2rem;
+    color: #9b9b9d;
+}

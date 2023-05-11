@@ -1,0 +1,28 @@
+@media screen and  (max-width: 992px) {
+
+    .picture_small-card > img{
+        display: flex;
+        width: 340px;
+        height: 180px;
+        border-radius: .4rem;
+        margin-right: 2rem;
+    }
+    .small-card_contents{
+        margin-right: .7rem;
+        margin-top: 1rem;
+    }
+    .small-card_date{
+        font-size: .6rem;
+    }
+    .small-card_title{
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: .8rem;
+        margin-top: 1rem;
+    }
+    .small-card_content{
+        font-size: .8rem;
+        line-height: 1.3rem;
+        width: 20rem;
+    }
+}
